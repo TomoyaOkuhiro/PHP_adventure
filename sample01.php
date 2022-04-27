@@ -10,7 +10,9 @@
 
 <body>
   <?php
-  echo "Welcome PHP !!!";
+  echo 'Welcome PHP !!!';
+  echo "I`m studying PHP";
+  echo 'I\'m studying escape sequence';
   ?>
 </body>
 
