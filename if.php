@@ -24,7 +24,7 @@ endif;
 ?>
 
 <?php
-$x = random_int(0, 5);
+$x = random_int(0, 3);
 if ($x) :
   echo '$xは0ではありません';
 endif;
