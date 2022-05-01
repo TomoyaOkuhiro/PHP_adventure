@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>ともすた</title>
+        <link>https://tomosta.jp/</link>
+        <description>プログラミング学習コミュニティ</description>
+        <lastBuildDate>Fri, 29 Apr 2022 14:32:36 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[プログラマのためのPC/スマホ/タブレットの選び方 2022年度版]]></title>
+            <link>https://tomosta.jp/blog/mac-android-2022/</link>
+            <guid>https://tomosta.jp/blog/mac-android-2022/</guid>
+            <content:encoded><![CDATA[春になって、これから新しく学習用、仕事用にコンピューターを揃えたいという方も少なくないでしょう。 WindowsかMacか、iPadは買うべきか。さまざまなデバイスが登場していて迷ってしまいます。そんなときの1つの指針と [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vue CLI(Vue UI) + Vue Router + Vuex (+ vuex-persist) を使ってメモ帳アプリを作ろう]]></title>
+            <link>https://tomosta.jp/free_lesson/vue3-vuex-vue-router/</link>
+            <guid>https://tomosta.jp/free_lesson/vue3-vuex-vue-router/</guid>
+            <content:encoded><![CDATA[この記事は、「これからはじめる人のJavaScript/Vue.jsの教科書」のVue3対応、アップデート記事です。本書をお持ちの方は、後半の記事を以下の記事に差し替えてご利用ください。 Vue.jsは、JavaScri [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[npmってなに？ Node.jsのバージョンを切り替えられるVolta / nとyarnも紹介]]></title>
+            <link>https://tomosta.jp/free_lesson/npm_volta/</link>
+            <guid>https://tomosta.jp/free_lesson/npm_volta/</guid>
+            <content:encoded><![CDATA[プログラミングやウェブ開発でよく利用される「npm」や「yarn」はなにか、Node.jsのバージョンを切り替えられるVoltaやnとともに紹介します。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Git/SourceTreeマスター講座をスタートしました（有料講座）]]></title>
+            <link>https://tomosta.jp/news/git-master-start/</link>
+            <guid>https://tomosta.jp/news/git-master-start/</guid>
+            <content:encoded><![CDATA[YouTubeで月額990円で学んで頂ける有料講座として、「Git/SourceTreeマスター講座」をスタートしました。 この講座では、無償のGitクライアント「SourceTree」を利用してGitの基本からGitH [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[JavaScriptのwhile構文で万年カレンダーを作ろう]]></title>
+            <link>https://tomosta.jp/free_lesson/js-while-calendar/</link>
+            <guid>https://tomosta.jp/free_lesson/js-while-calendar/</guid>
+            <content:encoded><![CDATA[JavaScriptで同じような処理を繰り返したいときに使えるwhile構文を使って、万年カレンダーを作ってみましょう。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft EdgeとInternet Explorerってどう違うの？　Chromeの仲間ってどういう事？]]></title>
+            <link>https://tomosta.jp/blog/edge-vs-ie/</link>
+            <guid>https://tomosta.jp/blog/edge-vs-ie/</guid>
+            <content:encoded><![CDATA[2021年に登場したMicrosoftの最新OS『Windows 11』には、標準ウェブブラウザーとして「Microsoft Edge（以下、Edge）」が搭載されています。 Microsoftといえば、長らく「Inte [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[『PHP 7/8 プログラミングマスター講座』がUdemyメディアに取り上げられました]]></title>
+            <link>https://tomosta.jp/news/php-master-for-udemy-media/</link>
+            <guid>https://tomosta.jp/news/php-master-for-udemy-media/</guid>
+            <content:encoded><![CDATA[Udemyで販売中の『PHP 7/8 プログラミングマスター講座』が、Udemyメディアの「オンライン学習Udemyで上半期最も学ばれた講座7選 （Tech編／人気のPython,GitからReactまで）」に取り上げら [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[この夏学びたいプログラミング言語10選]]></title>
+            <link>https://tomosta.jp/blog/summer_study_2021/</link>
+            <guid>https://tomosta.jp/blog/summer_study_2021/</guid>
+            <content:encoded><![CDATA[一部の都府県が緊急事態宣言下のこの夏、外出を控えて自宅でのんびりしている方も少なくないでしょう。せっかくなので、この機会にプログラミングを学んでみませんか？ ここでは、この夏、学んでおきたいプログラミング言語をご紹介しま [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[WordPress 5.8リリース。変更点とバージョンアップの注意点]]></title>
+            <link>https://tomosta.jp/blog/wordpress5-8/</link>
+            <guid>https://tomosta.jp/blog/wordpress5-8/</guid>
+            <content:encoded><![CDATA[WordPressが、5.8にバージョンアップしました。WordPressは小数第2位がマイナーバージョン、整数部と小数第1位がメジャーバージョンとされています。（5.9の次が 6.0になる予定？） メジャーバージョンに [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Next.js超入門 &#8211; セットアップからVercelへの公開まで]]></title>
+            <link>https://tomosta.jp/free_lesson/nextjs-basic/</link>
+            <guid>https://tomosta.jp/free_lesson/nextjs-basic/</guid>
+            <content:encoded><![CDATA[Next.jsは、Vercelというホスティングサービスなどを展開する企業が開発している JavaScriptフレームワークです。
+Reactという JavaScriptライブラリーをベースに開発されていて、大規模なサイト制作やウェブベースのプログラム開発などが可能なフレームワークとして開発されています。
+この講座では、まずは Next.jsのセットアップ方法から簡単なページの制作、公開までの流れを紹介していきましょう。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Cookieを特定のサイトのものだけ削除する方法]]></title>
+            <link>https://tomosta.jp/blog/clear-cookie/</link>
+            <guid>https://tomosta.jp/blog/clear-cookie/</guid>
+            <content:encoded><![CDATA[ウェブサイトを開発していると、Cookieの値のせいで管理画面などにアクセスができなくなったり、正常に操作が行えなくなってしまうことがあります。 そんな時、Cookieを削除すると戻るのですが、この時ウェブブラウザーの機 [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[MAMPで PHPのエラーを表示する方法]]></title>
+            <link>https://tomosta.jp/blog/mamp-display-errors/</link>
+            <guid>https://tomosta.jp/blog/mamp-display-errors/</guid>
+            <content:encoded><![CDATA[MAMPを使って PHPの開発をしているとき、PHPを書き間違えた時に次のような画面になってしまうことがあります（Google Chromeの場合）。 これは、PHPがエラーを出しているのに画面表示が OFFになっていて [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[MAG2NEWSにメルマガが紹介されました]]></title>
+            <link>https://tomosta.jp/news/20210529/</link>
+            <guid>https://tomosta.jp/news/20210529/</guid>
+            <content:encoded><![CDATA[まぐまぐ！が運営するメディアサイト『MAG2NEWS』に、ともすたが発行する有料メールマガジン『たにぐちまことのプログラミングと起業のことば辞典』が取り上げられました。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[プログラミング学習に Macを選ぶならこれ！ 2021年版]]></title>
+            <link>https://tomosta.jp/blog/best-by-mac-2021/</link>
+            <guid>https://tomosta.jp/blog/best-by-mac-2021/</guid>
+            <content:encoded><![CDATA[プログラミングの学習に Macを購入しようなんていう方もいるかも知れません。現在 Macはデスクトップ型とノート型合わせて、さまざまな種類が販売されています。
+
+この中でプログラミング学習には、どんな Macを購入したら良いのでしょう？　いくつかポイントを紹介しましょう。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ウェブページの表示確認が簡単になる『Sizzy』]]></title>
+            <link>https://tomosta.jp/blog/sizzy/</link>
+            <guid>https://tomosta.jp/blog/sizzy/</guid>
+            <content:encoded><![CDATA[ウェブページを制作するとき、レスポンシブ・ウェブデザインの各ブレイクポイントが正しく表示されるかを確認するのはなかなか大変です。 そこで、開発者向けブラウザーの「Sizzy」を使うと便利です。 複数デバイスの解像度を並べ [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Google Chromeの「タブ」を使いこなそう！]]></title>
+            <link>https://tomosta.jp/blog/chome-tab/</link>
+            <guid>https://tomosta.jp/blog/chome-tab/</guid>
+            <content:encoded><![CDATA[ウェブブラウザーと言えば Chromeというほど浸透している Google Chrome。Chromeの大きな特徴の1つと言えば、タブを使って複数のサイトを同時に閲覧できることです。 とはいえ、タブをどんどん開いて閉じる [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[SQLを実行するシンプルな方法 &#8211; mysqli::query]]></title>
+            <link>https://tomosta.jp/blog/mysqli_query/</link>
+            <guid>https://tomosta.jp/blog/mysqli_query/</guid>
+            <content:encoded><![CDATA[MySQLiのオブジェクトでデータベースに接続したら、SQLを実行することができます。シンプルな SQLを使う場合は queryメソッドが便利です。 SQLでエラーが発生た場合、falseが返り値になります。同時に、$m [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[MySQL/MariaDBを扱おう &#8211; MySQLi]]></title>
+            <link>https://tomosta.jp/blog/mysqli/</link>
+            <guid>https://tomosta.jp/blog/mysqli/</guid>
+            <content:encoded><![CDATA[PHPとセットで使われることが多いデータベース（DB)が、MySQLおよびその後完成品である MariaDBです。 PHPで MySQL/MariaDBを扱うには、MySQLiオブジェクトを使います。 データベースと接続 [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[セッションに情報を保存しよう &#8211; session_start / $_SESSION]]></title>
+            <link>https://tomosta.jp/blog/session/</link>
+            <guid>https://tomosta.jp/blog/session/</guid>
+            <content:encoded><![CDATA[ウェブは、ページを移るとそれまでの情報はすべて消えてしまいます。これを「セッションが切れる」と言います。そのため、ページ間で情報を共有したい場合はセッションに情報を保存しておく必要があります。次のようなHTMLを準備しま [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PHPで Cookieを扱う &#8211; setcookie]]></title>
+            <link>https://tomosta.jp/blog/setcookie/</link>
+            <guid>https://tomosta.jp/blog/setcookie/</guid>
+            <content:encoded><![CDATA[Cookie（クッキー）とは、ウェブブラウザーにデータを保存できる機能のことで、ウェブ上の各種プログラミング言語で扱うことができます。PHPでも、次の setcookieファンクションを利用すれば保存できます。 まずは、 [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[フォームの入力をフィルタリングする &#8211; filter_input]]></title>
+            <link>https://tomosta.jp/blog/filter_input/</link>
+            <guid>https://tomosta.jp/blog/filter_input/</guid>
+            <content:encoded><![CDATA[ウェブからの入力は、そのまま保存したり扱ったりするのは危険です。例えば、次のようなフォームを作成します。 この時、例えば「&lt;script&gt;&#8230;&lt;/script&gt;」など、JavaScrip [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CSVファイルを扱う &#8211; fgetcsv, fputcsv]]></title>
+            <link>https://tomosta.jp/blog/csv/</link>
+            <guid>https://tomosta.jp/blog/csv/</guid>
+            <content:encoded><![CDATA[構造化されたデータをファイルに保存する方法はいくつかありますが、CSV形式なら Excel等のスプレッドシートでも扱いやすくて便利です。 PHPで CSVを扱うには、SplFileObjectの CSV関連メソッドを利用 [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ファイルに入出力する &#8211; SplFileObject]]></title>
+            <link>https://tomosta.jp/blog/splfileobject/</link>
+            <guid>https://tomosta.jp/blog/splfileobject/</guid>
+            <content:encoded><![CDATA[PHPでファイルを入出力する場合、fgetsや file_get_contents等のファンクションを使うこともできますが、SplFileObjectオブジェクトを利用すると便利です。 ファイルを書き込む まずは、ファイ [&hellip;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[インスタンスのクラスを判断する &#8211; instanceof]]></title>
+            <link>https://tomosta.jp/blog/instanceof/</link>
+            <guid>https://tomosta.jp/blog/instanceof/</guid>
+            <content:encoded><![CDATA[各インスタンスが、どのクラスのものであるかを判断するには「instanceof」という演算子を使います。例えば次の例を見てみましょう。 この時、「$x」というインスタンスが Itemクラスであるかは次のように判定できます [&hellip;]]]></content:encoded>
+        </item>
+    </channel>
+</rss>
