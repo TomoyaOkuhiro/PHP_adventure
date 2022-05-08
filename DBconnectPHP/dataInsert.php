@@ -12,7 +12,7 @@
   <?php
   $db = new mysqli('localhost:8889', 'root', 'root', 'mydb');
   $ret = $db->query('insert into memos(memo) values("PHPからのメモです")');
-  if ($ret) :
+  if ($ret) :  //if($xx) データが存在するかどうか
     echo 'データ挿入が正常に完了しました';
   else :
     echo 'データが正常に完了されませんでした';
