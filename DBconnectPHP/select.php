@@ -11,10 +11,10 @@
 <body>
   <?php
   $db = new mysqli('localhost:8889', 'root', 'root', 'mydb');
-  $records = $db->query('select * from my_items');
+  $records = $db->query('select count(*) as cnt from my_items');
   if ($records) {
     while ($record = $records->fetch_assoc()) {
-      echo $record['item_name'] . ',' . $record['price'];
+      echo $record['count(*)'] . ',' . $record['price'];
     }
   } else {
     echo $db->error;
