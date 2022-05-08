@@ -10,3 +10,5 @@ select * from makers, my_items where makers.id = my_items.maker_id;
 
 select * from makers m, my_items i where m.id = i_id;
 
+s をつけるかつけないか注意
+
