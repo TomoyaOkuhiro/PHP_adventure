@@ -14,7 +14,7 @@
   $records = $db->query('select count(*) as cnt from my_items');
   if ($records) {
     while ($record = $records->fetch_assoc()) {
-      echo $record['count(*)'] . ',' . $record['price'];
+      echo $record['cnt'] . '<br>';
     }
   } else {
     echo $db->error;
