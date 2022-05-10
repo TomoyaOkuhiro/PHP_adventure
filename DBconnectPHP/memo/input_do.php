@@ -10,6 +10,7 @@ $ret = $stmt->execute();
 
 if ($ret) :
   echo '正常に登録されました';
+  echo '<br>⇨ <a href="index.php">トップへ戻る</a>';
 else :
   $db->error;
 endif;
