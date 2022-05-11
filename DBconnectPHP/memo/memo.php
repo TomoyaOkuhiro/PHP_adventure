@@ -15,8 +15,9 @@
   if (!$stmt) {
     die($db->error);
   }
-  $id = 1;
-  $stmt->bind_param('i', $id);
+  $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_INT);
+  $start = ($page - 1) * 5;
+  $stmt->bind_param('i', $start);
   $stmt->execute();
 
   $stmt->bind_result($id, $memo, $created);
