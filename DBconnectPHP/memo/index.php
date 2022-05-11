@@ -22,6 +22,9 @@ $stmt->execute();
 <body>
   <h1>メモ帳</h1>
   <p>⇨ <a href="input.html">新しいメモ</a></p>
+  <?php if (!$result) : ?>
+    <p>表示するメモはありません</p>
+  <?php endif; ?>
   <?php $stmt->bind_result($id, $memo, $created); ?>
   <?php while ($stmt->fetch()) : ?>
     <hr>
