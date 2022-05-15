@@ -1,5 +1,10 @@
 <?php
 require('dbconnect.php');
+
+$counts = $db->query('select count(*) as cnt from memos');
+$count = $counts->fetch_assoc();
+$max_page = floor(($count['cnt'] + 1) / 5 + 1);
+
 $stmt = $db->prepare('select * from memos order by id desc limit 0, 5');
 if (!$stmt) {
   die($db->error);
@@ -42,8 +47,13 @@ $stmt->fetch();
     <hr>
   <?php endwhile; ?>
   <p>
-    <a href="?page=<?php echo $page - 1; ?>">ページ目へ</a>
-    <a href="?page=<?php echo $page + 1; ?>">ページ目へ</a>
+    <?php if ($page > 1) : ?>
+      <a href="?page=<?php echo $page - 1; ?>"><?php echo $page - 1; ?>ページ目へ</a>
+    <?php endif; ?>
+
+    <?php if ($page < $max_page) : ?>
+      <a href="?page=<?php echo $page + 1; ?>"><?php echo $page + 1; ?>ページ目へ</a>
+    <?php endif; ?>
   </p>
 </body>
 
