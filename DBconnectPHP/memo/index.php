@@ -1,12 +1,19 @@
 <?php
 require('dbconnect.php');
-$stmt = $db->prepare('select *from memos order by id desc limit 0, 5');
+$stmt = $db->prepare('select * from memos order by id desc limit 0, 5');
 if (!$stmt) {
   die($db->error);
 }
-$page = 5;
-$stmt->bind_param('i', $page);
-$stmt->execute();
+$page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_NUMBER_INT);
+$page = ($page ?: 1);
+$start = ($page - 1) * 5;
+$stmt->bind_param('i', $start);
+$result = $stmt->execute();
+
+$stmt->bind_result($id, $memo, $created);
+$stmt->fetch();
+
+
 ?>
 
 <!DOCTYPE html>
@@ -34,6 +41,10 @@ $stmt->execute();
     </div>
     <hr>
   <?php endwhile; ?>
+  <p>
+    <a href="?page=<?php echo $page - 1; ?>">ページ目へ</a>
+    <a href="?page=<?php echo $page + 1; ?>">ページ目へ</a>
+  </p>
 </body>
 
 </html>
