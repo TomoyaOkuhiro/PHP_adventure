@@ -61,6 +61,7 @@ function setCategoryName($category)
   } else {
     return 'その他';
   }
+}
 ?>
 
 
@@ -85,9 +86,10 @@ function setCategoryName($category)
       <tr>
         <td><?php echo $column['id'] ?></td>
         <td><?php echo $column['title'] ?></td>
-        <td><?php echo $column['category'] ?></td>
+        <td><?php echo setCategoryName($column['category']) ?></td>
+        <td><a href="/htdocs/PHP/blog/detail.php?id=<?php echo $column['id'] ?>">詳細</a></td>
       </tr>
-    <?php endforeach ?>
+    <?php endforeach; ?>
   </table>
 </body>
 
