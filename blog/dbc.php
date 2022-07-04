@@ -9,8 +9,7 @@
 // 返り値:接億結果を返す
 
 
-function dbConnect()
-{
+function dbConnect() {
 
   $dsn = 'mysql:host=localhost;dbname=blog_app;charset=utf8';
   $user = 'bloguser';
@@ -31,8 +30,7 @@ function dbConnect()
 //  2.データを取得する
 // 引数:なし
 // 返り値:取得したデータ
-function getAllBlog()
-{
+function getAllBlog() {
   $dbh = dbConnect();
   //  SQLの準備
   $sql = 'SELECT * FROM blog';
@@ -51,8 +49,7 @@ $blogData = getAllblog();
 // 引数:int
 // 返り値:カテゴリの文字列
 
-function setCategoryName($category)
-{
+function setCategoryName($category) {
 
   if ($category === '1') {
     return 'ブログ';
@@ -87,7 +84,7 @@ function setCategoryName($category)
         <td><?php echo $column['id'] ?></td>
         <td><?php echo $column['title'] ?></td>
         <td><?php echo setCategoryName($column['category']) ?></td>
-        <td><a href="/htdocs/PHP/blog/detail.php?id=<?php echo $column['id'] ?>">詳細</a></td>
+        <td><a href="/detail.php?id=<?php echo $column['id'] ?>">詳細</a></td>
       </tr>
     <?php endforeach; ?>
   </table>
