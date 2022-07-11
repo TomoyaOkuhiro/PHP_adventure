@@ -34,3 +34,4 @@ $stmt->execute();
 // 結果を取得
 $result = $stmt->fetch(PDO::FETCH_ASSOC);
 var_dump($result);
+

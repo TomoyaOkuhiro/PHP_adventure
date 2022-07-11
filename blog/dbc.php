@@ -1,4 +1,5 @@
 <?php
+
 //  関数一つに一つの機能のみを持たせる
 //  1.DB接続
 //  2.データを取得する.
@@ -9,14 +10,15 @@
 // 返り値:接億結果を返す
 
 
-function dbConnect() {
+function dbConnect()
+{
 
   $dsn = 'mysql:host=localhost;dbname=blog_app;charset=utf8';
   $user = 'bloguser';
   $pass = 'blogpass';
 
   try {
-    $dbh = new PDO($dsn, $user, $pass, [
+    $dbh = new \PDO($dsn, $user, $pass, [
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     ]);
   } catch (PDOException $e) {
@@ -30,7 +32,8 @@ function dbConnect() {
 //  2.データを取得する
 // 引数:なし
 // 返り値:取得したデータ
-function getAllBlog() {
+function getAllBlog()
+{
   $dbh = dbConnect();
   //  SQLの準備
   $sql = 'SELECT * FROM blog';
@@ -49,7 +52,8 @@ $blogData = getAllblog();
 // 引数:int
 // 返り値:カテゴリの文字列
 
-function setCategoryName($category) {
+function setCategoryName($category)
+{
 
   if ($category === '1') {
     return 'ブログ';
@@ -59,10 +63,39 @@ function setCategoryName($category) {
     return 'その他';
   }
 }
+
+
+// 引数:$id
+// 返り値:$result
+function getBlog($id)
+{
+  if (empty($id)) {
+    exit('idが不正です');
+  }
+
+  $dbh = dbConnect();
+
+  // SQL 準備(idには攻撃の危険を考え、id = intとはしない)
+  $stmt = $dbh->prepare('SELECT * FROM blog where id = :id');
+  $stmt->bindValue(':id', (int)$id, 'PDO::PARAM_INT');
+
+  // SQL実行
+  $stmt->execute();
+
+  // 結果を取得
+  $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+  if (!$result) {
+    exit('ブログがありません');
+  }
+
+  return $result;
+}
+
 ?>
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -90,4 +123,4 @@ function setCategoryName($category) {
   </table>
 </body>
 
-</html>
+</html> -->
