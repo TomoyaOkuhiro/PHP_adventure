@@ -2,10 +2,18 @@
 // 1.データを取得
 require_once('dbc.php');
 // 2.取得したデータを展開
-
 $blogData = getAllblog();
 ?>
 
+
+<?php
+// 1.フォームから値を渡す
+// 2.フォームから値を受け取る
+// 　3.バリデーションする
+// 4.トランザクションを開始
+// 5.データをDBに格納する
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +25,8 @@ $blogData = getAllblog();
 </head>
 
 <body>
+  <h2>ブログ一覧</h2>
+  <p><a href="/form.html"></a></p>
   <table>
     <tr>
       <th>No.</th>
