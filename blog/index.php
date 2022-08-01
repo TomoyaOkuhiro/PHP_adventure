@@ -1,8 +1,10 @@
 <?php
 // 1.データを取得
 require_once('dbc.php');
+
+$dbc = new Dbc();
 // 2.取得したデータを展開
-$blogData = getAllblog();
+$blogData = $this->getAllblog();
 ?>
 
 
@@ -37,7 +39,7 @@ $blogData = getAllblog();
       <tr>
         <td><?php echo $column['id'] ?></td>
         <td><?php echo $column['title'] ?></td>
-        <td><?php echo setCategoryName($column['category']) ?></td>
+        <td><?php echo $dbc->setCategoryName($column['category']) ?></td>
         <td><a href="/detail.php?id=<?php echo $column['id'] ?>">詳細</a></td>
       </tr>
     <?php endforeach; ?>
